@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>645</width>
+    <height>326</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTreeWidget" name="supplierSparePartRelation">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>30</y>
+      <width>256</width>
+      <height>192</height>
+     </rect>
+    </property>
+    <property name="columnCount">
+     <number>2</number>
+    </property>
+    <column>
+     <property name="text">
+      <string>Suppliers</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Spare-Parts</string>
+     </property>
+    </column>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
